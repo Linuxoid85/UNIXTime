@@ -1,6 +1,6 @@
-# UnixSovet
+# UNIXTime
 
-[[**Статьи**](articles/README.md)] | [[**Правила**](rules.md)] | [[**Поддержать меня**](donate.md)] | [[**Telegram**](https://t.me/unixsovet)]
+[[**Статьи**](articles/README.md)] | [[**Правила**](rules.md)] | [[**Поддержать меня**](donate.md)] | [[**Telegram**](https://t.me/unixtime_channel)]
 
 Доброго времени суток! На этом сайте расположены особо крупные статьи канала [UnixSovet](https://t.me/UnixSovet), не вписывающиеся в формат коротких постов Telegram.
 
