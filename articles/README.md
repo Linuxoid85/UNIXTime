@@ -7,7 +7,6 @@
 ## Разные мысли
 <!-- minds/README.md -->
 
-- [Пару слов про Haiku OS](minds/haiku.md)
 - Linux Desktop — почему всё так плохо?
   - [Часть 1. Дерьмовые рабочие окружения](minds/linux_desktop1.md)
   - [Часть 2. Стандарт FHS и управление ПО](minds/linux_desktop2.md)
