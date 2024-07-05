@@ -18,7 +18,10 @@
 <!-- guides/README.md -->
 
 <!-- - [Сборка AppImage пакетов](guides/create-appimage.md) -->
-- [Пару слов про Serenity OS](guides/serenity/README.md)
+
+## Операционные системы
+
+- [Пару слов про Serenity OS](os/serenity/README.md)
 
 ## GNOME
 <!-- GNOME/README.md -->
