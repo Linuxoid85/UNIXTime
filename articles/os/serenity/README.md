@@ -1,4 +1,4 @@
-# <img src="pic/logo.png" width=64> Пару слов про SerenityOS
+# <img src="pic/logo.png" width=32> Пару слов про SerenityOS
 
 SerenityOS — любительская опреационная система семейства UNIX, разрабатываемая с 2018 года. Она предназначена для архитектуры x86, имеет своё собственное ядро и графический интерфейс «а-ля Windows 9x». Она написана с нуля на языке С++. Согласно [GitHub](https://github.com/SerenityOS/serenity/graphs/contributors), с 2018 по 2024 год в разработке SerenityOS так или иначе участвуют(участвовали) больше тысячи человек.
 
