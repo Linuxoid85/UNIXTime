@@ -50,4 +50,4 @@ Meta/serenity.sh run
 
 Этой командой вы начнёте сборку ОС, по завершении которой будет создан ряд файлов в директории `Build/x86_64/Root` и запущена виртуальная машина QEMU с собранной SerenityOS.
 
-![](pic/build_serenity.png)
+![](pic/build_serenity.png) | ![](pic/build_serenity2.png)
