@@ -181,9 +181,57 @@ GUI SerenityOS очень сильно напоминает интерфейс W
 
 Что касается каталога `/usr/share/`, то тут не всё так однозначно. Поскольку SerenityOS графическая система, я ожидал увидеть здесь некоторое подобие `/usr/share/applications/` с `*.desktop`-файлами для формирования меню «Пуск» (да и вообще для того, чтобы GUI знал, какие приложения в системе вообще есть), `/usr/share/icons/` и `/usr/share/themes/` для формирования внешнего вида системы... Но всего этого здесь нет. Из всего, что есть: файлы для программ Maps и Welcome, а также man-страницы и файлы для автодополнения ввода в терминале.
 
-Всё это, оказывается, содержится в каталоге `/res/`! Некое подобие `*.desktop`-файлов находится в `/res/apps` (эти файлы имеют схожую с `*.desktop`-структуру и имеют расширение `*.af`), иконки в `/res/icons` (самое ужасное в том, что иконки в омерзительном растровом формате PNG, а в современной системе хотелось бы видеть что-то векторное — тот же SVG или HVIF как в Haiku OS), также в этом каталоге есть цветовые схемы, темы оформления, темы курсоров, смайлики, шрифты и прочее.
+Всё это, оказывается, содержится в каталоге `/res/`! Некое подобие `*.desktop`-файлов находится в `/res/apps` (эти файлы имеют схожую с `*.desktop`-структуру и имеют расширение `*.af`), иконки в `/res/icons` (самое ужасное в том, что иконки в омерзительном растровом формате PNG, а в современной системе хотелось бы видеть что-то векторное — тот же SVG или [HVIF](https://habr.com/ru/articles/79163/) как в Haiku OS), также в этом каталоге есть цветовые схемы, темы оформления, темы курсоров, смайлики, шрифты и прочее.
 
 ![](pic/res.png) | ![](pic/res-tree.png)
+
+Что касается каталога `/var`, хранящего в себе часто изменяемые данные, то тут есть только `/var/run`, который должен содержать, согласно [стандарту FHS](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.html#varrunRuntimeVariableData), часто изменяющиеся данные во время выполнения процесса. Никаких `/var/log`, `/var/cache`, `/var/lib` нет. Не знаю, хорошо ли это или плохо, но от директорий для кеша и логов я бы не отказался.
+
+Ну и последний каталог, заслуживающий нашего внимания, это `/www`, который содержит, как видно из названия, `*.html`-страницы с информацией о системе и прочей шнягой. Пользы от него не так много, но для беглого ознакомления с тем, что же такое SerenityOS, будет достаточно.
+
+### Нейминг файлов и не только
+
+В UNIX-системах традиционно файлы и прочие объекты имеют названия, набранные в нижнем регистре. Часто используются сокращения, например `ls` -> list screen, `cd` -> change directory и т.д. В SerenityOS для традиционных для UNIX программ и прочих файлов используется этот подход, но всё остальное, специфичное для этой ОС, набрано в CamelCase:
+
+- Имена файлов:
+  - `/bin/About`
+  - `/bin/AnalogClock`
+  - `/bin/ChessEngine`
+  - `/etc/FileIconProvider.ini`
+  - `/etc/Network.ini`
+  - и т.д.
+- Библиотеки/заголовочные файлы:
+  - `RequestClient.h`
+  - `WebSocket.h`
+  - `LibURL`
+  - `Loader.so`
+  - `libDeviceTree.so`
+- Логи (выводятся в терминал, откуда запущена ОС):
+
+```
+6645.312 RequestServer(108:109): ConnectionCache: Connection to https://www/index.html failed: name server returned permanent failure
+6645.320 RequestServer(108:109): Request with a null socket finished for URL https://www/index.html
+6645.320 WebContent(107): ResourceLoader: Failed load of: "https://www/index.html", Error: Load failed, Duration: 154ms
+6645.371 WebContent(107): VERIFICATION FAILED: navigable() at ./Userland/Libraries/LibWeb/DOM/Document.cpp:3051
+6645.376 [WebContent(107:107)]: CRASH: CPU #0 Illegal instruction in userspace
+```
+
+- Исходный код:
+
+```c
+#include <Kernel/Boot/CommandLine.h>
+#include <Kernel/Firmware/ACPI/Parser.h>
+#include <Kernel/Firmware/ACPI/StaticParsing.h>
+#include <Kernel/Memory/TypedMapping.h>
+#include <Kernel/Sections.h>
+
+UNMAP_AFTER_INIT NonnullLockRefPtr<ACPISysFSComponent> ACPISysFSComponent::create(StringView name, PhysicalAddress paddr, size_t table_size)
+{
+    // FIXME: Handle allocation failure gracefully
+    auto table_name = KString::must_create(name);
+    return adopt_lock_ref(*new (nothrow) ACPISysFSComponent(move(table_name), paddr, table_size));
+}
+```
 
 ## Особенности ОС
 
