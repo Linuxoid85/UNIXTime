@@ -1,5 +1,9 @@
 theme: jekyll-theme-hacker
 
+navbar-links:
+  Telegram: "https://t.me/unixtime_channel"
+  Doname Me: "donate"
+
 social-network-links:
   telegram: unixtime_channel
 
