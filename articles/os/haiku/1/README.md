@@ -25,9 +25,9 @@ Haiku, в отличие от двух предыдущих обзирантов
 
 <small>На передней панели этого компьютера мы видим две вертикальных полосы светодиодов. Они использовались в качестве индикатора нагрузки на каждый из <b>двух</b> процессоров. Кроме того, нижний светодиод (на правой полоске) указывал на активность жёсткого диска. Вполне себе неплохой маркетинговый ход, особенно учитывая то, что многопроцессорность была отличительной чертой BeBox.</small>
 
-![](pic/BeBox2.jpg) | ![](pic/BeBox3.jpg)
+![](pic/BeBox2.jpg) | ![](pic/BeBox3.jpg) | ![](pic/bebox_full.jpg) | ![](pic/lastbebox.jpg)
 
-<small>Фотографии были взяты <a href="http://www.josephpalmer.com/BeBox/BeBox.shtml">отсюда</a>.</small>
+<small>Фотографии были взяты <a href="http://www.josephpalmer.com/BeBox/BeBox.shtml">отсюда</a> и <a href="https://web.archive.org/web/20071012170227/http://bebox.nu/images.php?s=images/ppcbebox">отсюда</a>.</small>
 
 ![](pic/BeCPUsBoard.gif)
 
