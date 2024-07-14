@@ -13,6 +13,14 @@ Haiku, в отличие от двух предыдущих обзирантов
 - И тут мы плавно подходим к Haiku...
 -->
 
+## Полезные ссылки
+
+- [BeBox zone — музей BeOS](https://web.archive.org/web/20070728103610/http://bebox.nu/);
+- [Сайт Be Incorporated](https://web.archive.org/web/20031128123907/http://www.beincorporated.com/) (webarchive);
+- [Сайт операционной системы Haiku](https://www.haiku-os.org/);
+- [Русскоязычное Haiku OS WiKi](https://haiku-os.fandom.com/ru/wiki/HaikuOS_-_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D1%8F%D0%B7%D1%8B%D1%87%D0%BD%D0%B0%D1%8F_%D0%92%D0%B8%D0%BA%D0%B8);
+- [Цикл статей про Haiku от создателя AppImage](https://habr.com/ru/companies/slurm/articles/461141/);
+
 ## Be Inc.
 
 ![](pic/be.png)
