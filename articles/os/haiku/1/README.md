@@ -15,6 +15,8 @@ Haiku, в отличие от двух предыдущих обзирантов
 
 ## Полезные ссылки
 
+Перед тем, как продолжить, рекомендую посетить ряд сайтов для более точного понимания того, что же такое Haiku:
+
 - [BeBox zone — музей BeOS](https://web.archive.org/web/20070728103610/http://bebox.nu/);
 - [Сайт Be Incorporated](https://web.archive.org/web/20031128123907/http://www.beincorporated.com/) (webarchive);
 - [Сайт операционной системы Haiku](https://www.haiku-os.org/);
