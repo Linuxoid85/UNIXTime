@@ -85,7 +85,7 @@
 После первоначальной публикации этой статьи я был потрясён, узнав, что у [Xerox Star] было меню-гамбургер в 1981 году (до появления Lisa и Macintosh) — посмотрите внимательно:
 
 <div align="center">
-<img src="xerox-hamburger.gif">
+<img src="xerox-gamburger.gif">
 <p><small>Пользовательский интерфейс Xerox Star (1981 год). Источник: <a href="http://toastytech.com/guis/gv.html">GUI Gallery</a></small></p>
 </div>
 
