@@ -42,3 +42,10 @@
 Источник: [designinginteractions.com](http://www.designinginteractions.com/downloads/DesigningInteractions_2.pdf)
 
 Посмотрите это интервью с Биллом Аткинсоном: <http://www.designinginteractions.com/interviews/BillAtkinson?source=post_page-----5fa0fb369b42--------------------------------> (эта ссылка, похоже, битая — прим. переводчика).
+
+С тех пор, как Microsoft представила интерфейс [Ribbon](https://en.wikipedia.org/wiki/Ribbon_(computing)), никто больше не находит никаких команд/функций. По крайней мере, я не нахожу. И похоже, что я не один такой, иначе зачем существует [целая страница, посвящённая поиску «Paste Special»](https://support.microsoft.com/en-us/office/paste-special-e03db6c7-8295-4529-957d-16ac8a778719)?
+
+<div align="center">
+<img src="pic/ribbon.webp">
+<p><small>Ribbon вместо меню. Источник: <a href="https://commons.wikimedia.org/wiki/File:Example_of_a_ribbon_(user_interface_element).png">Wikimedia</a></small></p>
+</div>
