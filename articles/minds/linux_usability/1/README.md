@@ -71,6 +71,6 @@
 И эта ерунда не ограничивается веб-браузерами, GNOME 3 — явно худший в своём классе:
 
 <div align="center">
-<img src="pic/gnome-hamburger.png">
+<img src="pic/gnome-hamburger.webp">
 <p><small>GNOME 3 в Ubuntu 17.04 скрывает то, что раньше было меню, в «меню-гамбургер»</small></p>
 </div>
