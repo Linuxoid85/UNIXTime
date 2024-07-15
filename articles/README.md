@@ -7,6 +7,8 @@
 ## Разные мысли
 <!-- minds/README.md -->
 
+- [Сделай. Это. Проще](minds/linux_usability/README.md)
+
 - Linux Desktop — почему всё так плохо?
   - [Часть 1. Дерьмовые рабочие окружения](minds/linux_desktop1.md)
   - [Часть 2. Стандарт FHS и управление ПО](minds/linux_desktop2.md)
