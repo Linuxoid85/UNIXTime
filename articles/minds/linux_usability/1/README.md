@@ -74,3 +74,30 @@
 <img src="pic/gnome-hamburger.webp">
 <p><small>GNOME 3 в Ubuntu 17.04 скрывает то, что раньше было меню, в «меню-гамбургер»</small></p>
 </div>
+
+Но это касается не только GNOME. Похоже, идёт крестовый поход за уничтожение меню. Дизайн elementaryOS стал ещё хуже. Иконка «Настройки» — это всё, что осталось от меню. Где копирование, где вставка?
+
+<div align="center">
+<img src="pic/elementary-hamburger.webp">
+<p><small>Текстовый редактор в elementaryOS 0.3</small></p>
+</div>
+
+После первоначальной публикации этой статьи я был потрясён, узнав, что у [Xerox Star] было меню-гамбургер в 1981 году (до появления Lisa и Macintosh) — посмотрите внимательно:
+
+<div align="center">
+<img src="xerox-hamburger.gif">
+<p><small>Пользовательский интерфейс Xerox Star (1981 год). Источник: <a href="http://toastytech.com/guis/gv.html">GUI Gallery</a></small></p>
+</div>
+
+Я был ещё больше потрясён, когда узнал, что это меню делало то же самое, что и меню-гамбургер сегодня:
+
+<div align="center">
+<img src="pic/xerox-gamburger1.gif">
+<p><small>Меню-гамбургер в XEROX Star</small></p>
+</div>
+
+[Более подробная история значка габмургера](https://gizmodo.com/who-designed-the-iconic-hamburger-icon-1555438787).
+
+Итак, по сути, Firefox, GNOME 3 и др. отбросили улучшения графического интерфейса Lisa/Macintosh и вернулись к графическому интерфейсу Xerox 1981 года.
+
+<div color="red"><p>В каждом пользовательском приложении должна быть традиционная строка меню.</p></div>
