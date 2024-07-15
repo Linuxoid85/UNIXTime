@@ -26,5 +26,5 @@
 
 <div align="center">
 <img src="pic/lisa_menus.webp">
-<small>Меню «Файл», «Правка», ... около 1980 г. в графическом пользовательском интерфейсе Lisa. Источник: <a href="https://en.wikipedia.org/wiki/File:Apple_Lisa_Office_System_3.1.png">Wikimedia</a>
+<small>Меню «Файл», «Правка», ... около 1980 г. в графическом пользовательском интерфейсе Lisa. Источник: <a href="https://en.wikipedia.org/wiki/File:Apple_Lisa_Office_System_3.1.png">Wikimedia</a></small>
 </div>
