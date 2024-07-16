@@ -113,11 +113,46 @@
 <p><small>В GNOME 3 в Ubuntu 17.04 отсутствует меню «Правка» и комбинации клавиш</small></p>
 </div>
 
-Что? Объясняет Билл Аткинсон:
+*Что?* Объясняет Билл Аткинсон:
 
 <https://www.youtube.com/watch?v=-syl7m_i-80&feature=youtu.be&t=31m59s>
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/-syl7m_i-80" title="MacPaint Interview and Demonstration, with Bill Atkinson and Andy Herzfeld" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 <iframe src="https://www.youtube.com/embed/-syl7m_i-80" title="MacPaint Interview and Demonstration, with Bill Atkinson and Andy Herzfeld" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+XFCE правильно понимает основы — использование меню и комбинаций клавиш в меню. Я никогда бы не ожидал, что это станет чем-то, о чём нужно говорить особо, но пример GNOME выше показывает, что, очевидно, мы больше не можем воспринимать основы как должное.
+
+<div align="center">
+<img src="pic/xfce-menu.webp">
+<p><small>Меню «Edit» («Правка») в XFCE в Ubuntu 16.04</small></p>
+</div>
+
+*В каждом приложении должны быть комбинации клавиш, которые интуитивно понятны, потому что они чётко обозначены в меню.*
+
+## Строка глобального меню
+
+**[Закон Фиттса](https://en.wikipedia.org/wiki/Fitts%27s_law)**, о котором вскользь упоминалось выше, уже должен быть знаком в кругах UX. Из него также следует, что наличие глобальных панелей меню лучше, чем наличие панелей меню для каждого окна, потому что вам гораздо проще добраться до верхней части экрана, быстро переместив туда мышь, а не наводя её с высокой точностью.
+
+Эта концепция восходит к Lisa, которая была разработана в начале 80-х годов, а возможно, и раньше.
+
+<div align="center">
+<img src="pic/lisa-menubar.webp">
+<p><small>Ранние прототипы графического интерфейса Lisa, около 1980 года. Источник: <a href="https://www.folklore.org/StoryView.py?story=Busy_Being_Born.txt">folklore.org</a>. Лицензия: Добросовестное использование исторического артефакта</small></p>
+</div>
+
+Ранний сотрудник Apple Энди Херцфельд [подробно рассказывает о том](https://www.folklore.org/StoryView.py?story=Busy_Being_Born.txt), как зарождался графический интерфейс Apple:
+
+> Средний рисунок представляет собой **настоящий прорыв: строка меню находится в верхней части экрана**, а не в верхней части каждого окна.
+
+Прошло *почти 40 лет*, и вот что сделали рабочие окружения Linux из этого прорыва в UX:
+
+<div align="center">
+<img src="pic/gnome-menu.webp">
+<p><small>Глобальное меню состоит только из одной кнопки с 6 пунктами в GNOME 3 из Ubuntu 17.10</small></p>
+</div>
+
+В GNOME 3 есть то, что кажется глобальной строкой меню, но она не отображает пункты меню приложения, а тратит самое драгоценное место на экране, помещая часы прямо в центр этой строки.
+
+<div align="center">
+<img src="pic/gnome-panel.webp">
+<p><small>Часы в центре панели с глобальным меню, 2017</small></p>
+</div>
