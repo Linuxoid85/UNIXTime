@@ -106,4 +106,18 @@
 
 ## Комбинации клавиш в меню
 
-Снова посмотрите на скриншот GNOME 3. Можете сказать, что здесь отсутствует? Отсутствует визуальная подсказка, что Сохранить — это <kbd>Ctrl</kbd>+<kbd>S</kbd>. Пункты меню «Копировать», «Вставить» и т.д. полностью отсутствуют — не только их комбинации, как <kbd>Ctrl</kbd>+<kbd>C</kbd>, но и все пункты меню.
+Снова посмотрите на скриншот GNOME 3. Можете сказать, что здесь отсутствует? Отсутствует визуальная подсказка, что Сохранить — это <kbd>Ctrl</kbd>+<kbd>S</kbd>. Пункты меню «Копировать», «Вставить» и т.д. полностью отсутствуют — не только их комбинации, как <kbd>Ctrl</kbd>+<kbd>C</kbd>, но и все пункты меню (прим. переводчика — прошу не докапываться до названий пунктов «Копировать», «Вставить», это просто как пример. На самом деле, мне тоже не хватало обозначений комбинаций клавиш в GTK3-софте, благо, в новом GTK4+libadwaita обозначения комбинаций клавиш в меню-гамбургеры вернулись).
+
+<div align="center">
+<img src="pic/gnome-hamburger.webp">
+<p><small>В GNOME 3 в Ubuntu 17.04 отсутствует меню «Правка» и комбинации клавиш</small></p>
+</div>
+
+Что? Объясняет Билл Аткинсон:
+
+<https://www.youtube.com/watch?v=-syl7m_i-80&feature=youtu.be&t=31m59s>
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/-syl7m_i-80" title="MacPaint Interview and Demonstration, with Bill Atkinson and Andy Herzfeld" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe src="https://www.youtube.com/embed/-syl7m_i-80" title="MacPaint Interview and Demonstration, with Bill Atkinson and Andy Herzfeld" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
